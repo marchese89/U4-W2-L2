@@ -46,8 +46,8 @@ public class Main {
     }
 
     static List<Integer> doppiaListaInversa(List<Integer> lista){
-        List<Integer> clone = new ArrayList<Integer>(lista);
-        List<Integer> clone2 = new ArrayList<Integer>(lista);
+        List<Integer> clone = new ArrayList<>(lista);
+        List<Integer> clone2 = new ArrayList<>(lista);
         Collections.reverse(clone2);
         clone.addAll(clone2);
         return clone;
