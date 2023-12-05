@@ -70,9 +70,10 @@ public class Main {
     }
 
     static void stampaLista(List<Integer> l){
+        System.out.print("{");
         for(Integer i: l){
             System.out.print(i+ " ");
         }
-        System.out.println();
+        System.out.println("}");
     }
 }
