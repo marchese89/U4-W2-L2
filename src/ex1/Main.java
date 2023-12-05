@@ -45,6 +45,7 @@ public class Main {
 
         System.out.println("numero parole distinte: "+setDistinte.size());
         stampaSet(setDistinte);
+        sc.close();
     }
 
     public static void stampaSet(Set<String> set){
