@@ -66,6 +66,10 @@ public class Main {
                 System.out.print(l.get(i)+" ");
             }
         }
+        //versione alternativa
+//        for(int i = b?0:1; i < l.size(); i+=2){
+//            System.out.print(l.get(i)+" ");
+//        }
         System.out.println("}");
     }
 
